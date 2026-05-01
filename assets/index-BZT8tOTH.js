@@ -1,0 +1,1 @@
+import{r as e,j as n}from"./index-CUEh9Ffb.js";function o(){return e.useEffect(()=>{window.location.replace("/index.html")},[]),n.jsx("div",{style:{minHeight:"100vh",background:"#121212",color:"#C69C6D",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"Georgia, serif"},children:"Loading Maison Noir…"})}export{o as component};
