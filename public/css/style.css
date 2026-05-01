@@ -246,6 +246,10 @@ section {
   color: var(--accent)
 }
 
+.nav-menu-cta {
+  display: none
+}
+
 .nav-cta {
   display: flex;
   align-items: center;
@@ -354,7 +358,7 @@ section {
     display: flex
   }
 
-  .nav-cta .btn:not(.btn-primary) {
+  .nav-cta .btn {
     display: none
   }
 
@@ -362,6 +366,11 @@ section {
     font-size: 1.2rem;
     position: relative;
     z-index: 110
+  }
+
+  .nav-menu-cta {
+    display: block;
+    margin-top: 10px
   }
 }
 

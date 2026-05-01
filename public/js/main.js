@@ -39,7 +39,9 @@
             <a href="offers.html">Offers</a>
             <a href="events.html">Events</a>
             <a href="locations.html">Locations</a>
-            <a href="reservation.html">Reserve</a>
+            <div class="nav-menu-cta">
+              ${btn("reserveTable", "btn btn-primary")}
+            </div>
           </div>
           <div class="nav-cta">
             ${btn("reserveTable", "btn btn-primary")}
